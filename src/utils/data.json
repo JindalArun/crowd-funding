@@ -1,0 +1,51 @@
+
+[{
+    "id": "1",
+    "title": "Medical Expense Fund",
+    "description": "Help Anuradha cover his medical expenses after a severe accident.",
+    "image": "https://media.istockphoto.com/id/827555064/photo/accident-with-the-cyan-bike-and-car.jpg?s=2048x2048&w=is&k=20&c=cvDFZR1CnICw8Ek-yDugEUod1x_RvQmEfTFIiX22Yp8=",
+    "video": "https://example.com/videos/campaign1.mp4",
+    "targetAmount": "7000/-",
+    "phnNumber": 8968422321,
+    "email": "jindal.arun88@gmail.com",
+    "createdAt": "2023-07-15T10:30:00Z",
+    "updatedAt": "2023-07-16T15:45:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Flood Fund",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligulaligula.",
+    "image": "https://media.istockphoto.com/id/498210457/photo/children-having-fun-in-the-water-during-flood-cambodia.jpg?s=2048x2048&w=is&k=20&c=VFltoNxAMEIynkn_wJCt6OY1Ccgl0yK9G_DWWPLrLNc=",
+    "video": "https://example.com/videos/campaign1.mp4",
+    "targetAmount": "10000/-",
+    "phnNumber": 8968422321,
+    "email": "jindal.arun88@gmail.com",
+    "createdAt": "2023-07-14T10:30:00Z",
+    "updatedAt": "2023-07-14T15:45:00Z"
+  },
+  {
+    "id": "3",
+    "title": "illness Fund",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligulaligula.",
+    "image": "https://media.istockphoto.com/id/1179122000/photo/old-people-senior-man-with-winter-seasonal-illness-fever-cold-problems-drinking-a-pharmacy.jpg?s=612x612&w=0&k=20&c=vlyoNSkWb5Tqxvd-kSj052SRUYL85jTBgVabrSxqzWY=",
+    "video": "https://example.com/videos/campaign1.mp4",
+    "targetAmount": "5000/-",
+    "phnNumber": 8968422321,
+    "email": "jindal.arun88@gmail.com",
+    "createdAt": "2023-07-14T10:30:00Z",
+    "updatedAt": "2023-07-14T15:45:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Grocery Fund",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligulaligula.",
+    "image": "https://media.istockphoto.com/id/1283712032/photo/cardboard-box-filled-with-non-perishable-foods-on-wooden-table-high-angle-view.jpg?s=612x612&w=0&k=20&c=7B2cUwQB2LeBmIh5JElkO5DoE7GRq-CRVmERsMSJoVY=",
+    "video": "https://example.com/videos/campaign1.mp4",
+    "targetAmount": "12000/-",
+    "phnNumber": 8968422321,
+    "email": "jindal.arun88@gmail.com",
+    "createdAt": "2023-07-14T10:30:00Z",
+    "updatedAt": "2023-07-14T15:45:00Z"
+  }
+]
+  

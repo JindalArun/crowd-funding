@@ -1,25 +1,45 @@
-import logo from './logo.svg';
 import './App.css';
+import CampaignList from './components/CampaignList';
+import FundraisingInputScreen from './components/FundraisingInputScreen'
+import Login from './components/Login';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import RootLayout from './components/RootLayout';
+import DonationScreen from './components/DonationScreen';
+import Error from './components/Error';
+import bgImg from '../src/Images/funds2.png'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+  const myStyle={
+      backgroundImage: "url(" +bgImg + ")",
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      height: '100vh'
+  };
+
+ 
+
+  const routes= createBrowserRouter([
+      {
+          path: '/',
+          element: <RootLayout />,
+          errorElement: <Error />,
+          children :[
+              { path: '/', element: <Login /> },
+              { path: 'listCampaign', element: <CampaignList /> },
+              { path: 'raiseFunds', element: <FundraisingInputScreen /> },
+              { path: 'donation', element: <DonationScreen /> },
+          ]
+      } 
+  ])
+return (
+  <div style={myStyle}>
+    <div>
+        <RouterProvider router={routes} />
     </div>
-  );
+  </div>
+);
 }
 
 export default App;
+

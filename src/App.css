@@ -36,3 +36,142 @@
     transform: rotate(360deg);
   }
 }
+
+.footer{
+  position: fixed;
+  background-color: rgb(0,43,92);
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-size: 12px;
+}
+
+.navBarHeader{
+  position: fixed;
+  background-color: orange;
+  right: 0%;
+  left: 0%;
+  top: 0%;
+  height: 100px;
+}
+
+.header{
+  background-color: antiquewhite;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right div {
+  margin-left: 20px;
+}
+
+.logOutBtn{
+  margin-right: 10px !important;
+  margin-top: 5px !important;
+} 
+
+/* 
+.compaignData{
+  background-color: #61dafb;
+  float: left;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 400px
+}
+
+
+
+
+.navLinks{
+  background-color: cadetblue;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.userCampaign{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; 
+}
+
+.donationBtn{
+  width: 40%;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+} */
+
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-form{
+  background-color: mediumturquoise;
+  width: 35%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fund-raising-form{
+  background-color: mediumturquoise;
+  width: 50%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-form{
+  background-color: mediumturquoise;
+  width: 30%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.compaignData{
+  background-color: #61dafb;
+  float: left;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 400px
+}
